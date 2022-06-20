@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-home {
+  @apply w-[100%] text-center my-4 font-normal font-Sora
+}
