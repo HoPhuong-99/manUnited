@@ -5,3 +5,50 @@
 .text-home {
   @apply w-[100%] text-center my-4 font-normal font-Sora
 }
+
+/* class RoadMap */
+.li-roadmap {
+  @apply w-[100%] h-[100%] flex justify-end 
+}
+
+.p-content-roadmap
+{
+  @apply px-[1rem] py-[1rem] border-solid border-black relative border-[1px] rounded-tr-[40px] rounded-bl-[40px]
+}
+
+.div-content-roadmap
+{
+  @apply px-[1rem] py-[1rem] border-solid border-black w-[70%] h-fit border-[3px] rounded-tr-[50px] rounded-bl-[50px]
+}
+
+.title-content-roadmap
+{
+  @apply block text-[2rem] capitalize font-Sora
+}
+
+.body-conten-roadmap 
+{
+  @apply block text-[0.875rem] capitalize font-normal my-[0.5rem] font-Sora
+}
+
+/* ShowCase */
+.element-showcase
+{
+  @apply w-[12rem] mx-4 bg-white rounded-[20px] cursor-pointer flex justify-center flex-col
+}
+.information
+{
+  @apply flex justify-between px-4 py-[0.8rem] border-[2px] bg-black border-solid border-white rounded-b-[20px]
+}
+.span-information 
+{
+  @apply font-Sora font-semibold text-[0.875rem] leading-6 text-white
+}
+.h1-information {
+  @apply block cursor-pointer font-Sora text-[1rem] text-white font-semibold
+}
+
+.animation-div {
+  @apply animation-delay-none animation-iteration-infinite animation-direction-normal 
+  animation-fill-none animation-state-running animation-duration-1000 animation-timing-ease-out
+}

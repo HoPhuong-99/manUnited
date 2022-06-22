@@ -3,6 +3,9 @@ import './App.css';
 import Narbar from './components/Narbar/Narbar';
 import Home from './components/Home/Home.jsx'
 import About from './components/About/About';
+import RoadMap from './components/RoadMap/RoadMap';
+import ShowCase from './components/ShowCase/ShowCase';
+import Team from './components/Team/Team';
 
 function App() {
   const [isDesktop, setDesktop] = useState({
@@ -38,6 +41,9 @@ function App() {
       <Narbar isMobile = {isMobile}/>
       <Home />
       <About/>
+      <RoadMap/>
+      <ShowCase/>
+      <Team/>
     </div>
   );
 }
