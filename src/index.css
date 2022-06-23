@@ -52,3 +52,19 @@
   @apply animation-delay-none animation-iteration-infinite animation-direction-normal 
   animation-fill-none animation-state-running animation-duration-1000 animation-timing-ease-out
 }
+
+/* Team */
+.div-inforTeam
+{
+  @apply w-[calc(20rem-4vw)] py-4 mx-4 my-8 relative z-[5] border-solid border-[2px] border-black rounded-[20px] flex flex-col justify-center 
+}
+.div-imgTeam {
+  @apply w-[80%] bg-white px-4 py-4 cursor-pointer border-solid border-[1px] border-black rounded-[20px]
+  bg-gradient-to-t from-red-500 to-red-300 flex justify-center
+}
+.h2-name {
+  @apply flex justify-center items-center mt-4 font-Sora uppercase font-bold text-[1.25rem]
+}
+.h2-achievements {
+  @apply flex justify-center items-center mt-4 font-Sora capitalize font-normal text-[1rem]
+}
