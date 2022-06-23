@@ -50,7 +50,7 @@
 
 .animation-div {
   @apply animation-delay-none animation-iteration-infinite animation-direction-normal 
-  animation-fill-none animation-state-running animation-duration-1000 animation-timing-ease-out
+  animation-fill-none animation-state-running animation-duration-1000 animation-timing-ease-out 
 }
 
 /* Team */
@@ -68,3 +68,4 @@
 .h2-achievements {
   @apply flex justify-center items-center mt-4 font-Sora capitalize font-normal text-[1rem]
 }
+

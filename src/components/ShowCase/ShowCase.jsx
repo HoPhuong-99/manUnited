@@ -1,4 +1,5 @@
 import React from 'react'
+import '../ShowCase/ShowCase.css'
 import img1 from '../../assets/mobile/showcasse/ronaldo.png'
 import img2 from '../../assets/mobile/showcasse/cavani.png'
 import img3 from '../../assets/mobile/showcasse/rasford.png'
@@ -14,7 +15,7 @@ import img11 from '../../assets/mobile/showcasse/degea.png'
 const ShowCase = () => {
   return (
     <section className='w-[100vw] min-h-screen bg-black flex  flex-col justify-center items-center relative overflow-hidden' id="showcase">
-      <div className='whitespace-nowrap box-content my-[2rem] flex animation-div animate-pulse'>
+      <div className='whitespace-nowrap box-content my-[2rem] flex animation-auto-left'>
         <div className="element-showcase">
           <img src={img1} alt='ronaldo' className='border-none' />
           <div className='information'>
@@ -148,7 +149,7 @@ const ShowCase = () => {
           </div>
         </div>
       </div>
-      <div className='whitespace-nowrap box-content my-[2rem] flex animation-div animate-pulse'>
+      <div className='whitespace-nowrap box-content my-[2rem] flex animation-auto-right'>
         <div className="element-showcase">
           <img src={img7} alt='debeak' className='border-none' />
           <div className='information'>

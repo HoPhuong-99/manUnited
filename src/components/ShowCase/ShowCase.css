@@ -1,0 +1,40 @@
+
+@keyframes moveLeft {
+  from {left: -100%}
+  to {left: 100%}
+}
+@keyframes MoveRight {
+  from {left: 100%;}
+  to {left: -100%;}
+}
+
+.animation-auto-left
+{
+  /* position: relative;
+  animation-name: moveLeft;
+  animation-duration: 5s; */
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-duration: 20s;
+  animation-timing-function:inherit ;
+  animation-name: moveLeft;
+  position: relative;
+}
+.animation-auto-right
+{
+  /* position: relative;
+  animation-name: moveLeft;
+  animation-duration: 5s; */
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-duration: 20s;
+  animation-timing-function:inherit ;
+  animation-name: MoveRight;
+  position: relative;
+}
