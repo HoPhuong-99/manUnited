@@ -10,9 +10,7 @@
 
 .animation-auto-left
 {
-  /* position: relative;
-  animation-name: moveLeft;
-  animation-duration: 5s; */
+
   animation-delay: 0s;
   animation-iteration-count: infinite;
   animation-direction: normal;
@@ -25,9 +23,7 @@
 }
 .animation-auto-right
 {
-  /* position: relative;
-  animation-name: moveLeft;
-  animation-duration: 5s; */
+
   animation-delay: 0s;
   animation-iteration-count: infinite;
   animation-direction: normal;

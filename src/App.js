@@ -6,6 +6,7 @@ import About from './components/About/About';
 import RoadMap from './components/RoadMap/RoadMap';
 import ShowCase from './components/ShowCase/ShowCase';
 import Team from './components/Team/Team';
+import FAQ from './components/FAQ/FAQ';
 
 function App() {
   const [isDesktop, setDesktop] = useState({
@@ -38,12 +39,13 @@ function App() {
 
   return (
     <div className="relative overflow-y-auto overflow-x-hidden w-[100%]" id="header">
-      <Narbar isMobile = {isMobile}/>
+      {/* <Narbar isMobile = {isMobile}/>
       <Home />
       <About/>
       <RoadMap/>
       <ShowCase/>
-      <Team/>
+      <Team/> */}
+      <FAQ/>
     </div>
   );
 }

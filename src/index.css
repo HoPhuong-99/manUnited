@@ -69,3 +69,27 @@
   @apply flex justify-center items-center mt-4 font-Sora capitalize font-normal text-[1rem]
 }
 
+ /* Class FAQ */
+
+ .md-mobile-view {
+  @apply md:container md:max-w-[100%] 
+ }
+ .lg-desktop-view 
+ {
+  @apply  lg:container lg:max-w-[100%] 
+ }
+.md-mobile-h1
+{
+  @apply text-4xl uppercase text-white my-4 border-solid border-b-[2px] border-y-white font-Sora font-bold md:w-fit md:flex-col
+}
+.content
+{
+  @apply w-[100%] lg:w-[40%]  my-4 flex flex-col justify-center items-center
+}
+
+.div-content-mobile{
+  @apply md:w-[90%] w-[90%] md:flex md:flex-col md:justify-center
+}
+.div-content-desktop {
+  @apply lg:w-[80%] lg:flex lg:flex-row lg:justify-center lg:flex-wrap
+}
