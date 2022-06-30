@@ -16,7 +16,7 @@ const Team = () => {
   }, [])
 
   return (
-    <section className='relative w-[100vw] flex flex-col justify-center min-h-screen bg-white' id='roadmap' ref={confettiRef}>
+    <section className='relative w-[100vw] flex flex-col justify-center min-h-screen bg-white' id='team' ref={confettiRef}>
       <Confetti
         className='absolute w-[100%] h-[100%] z-0'
         numberOfPieces={80}

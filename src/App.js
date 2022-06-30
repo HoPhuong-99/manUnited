@@ -8,6 +8,7 @@ import ShowCase from './components/ShowCase/ShowCase';
 import Team from './components/Team/Team';
 import FAQ from './components/FAQ/FAQ';
 import Footer from './components/Footer/Footer';
+import BtnBackMenu from './components/BtnBackScrollHome/BtnBackMenu';
 
 function App() {
   const [isDesktop, setDesktop] = useState({
@@ -30,7 +31,7 @@ function App() {
   }, [])
 
   useEffect(() => {
-    if (isDesktop.width < 768) {
+    if (isDesktop.width <= 1024) {
       setMobile(true)
     }
     else {
@@ -40,14 +41,15 @@ function App() {
 
   return (
     <div className="relative overflow-y-auto overflow-x-hidden w-[100%]" id="header">
-      <Narbar isMobile = {isMobile}/>
+      <Narbar isMobile={isMobile} />
       <Home />
-      <About/>
-      <RoadMap/>
-      <ShowCase/>
-      <Team/>
-      <FAQ/>
-      <Footer/>
+      <About />
+      <RoadMap />
+      <ShowCase />
+      <Team />
+      <FAQ />
+      <Footer />
+      <BtnBackMenu/>
     </div>
   );
 }

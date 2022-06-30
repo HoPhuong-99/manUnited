@@ -15,7 +15,6 @@ import "swiper/css/navigation";
 
 
 export const About = () => {
-
   return (
     <section className='w-[100%] bg-gradient-to-r from-red-600 to-red-400 min-h-screen flex justify-center flex-col items-center relative 
     overflow-hidden ' id="about">
@@ -70,8 +69,6 @@ export const About = () => {
           </div>
         </div>
       </div>
-
-
     </section>
   )
 }

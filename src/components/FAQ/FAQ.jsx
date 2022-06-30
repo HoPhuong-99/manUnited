@@ -54,7 +54,7 @@ const FAQ = () => {
 
   return (
     
-    <section className='bg-slate-800 flex justify-center items-center flex-col md-mobile-view lg-desktop-view ' id='fag'>
+    <section className='bg-slate-800 flex justify-center items-center flex-col md-mobile-view lg-desktop-view ' id='faq'>
       <h1 className='md-mobile-h1'>
         FAQ
       </h1>
