@@ -1,6 +1,7 @@
 import React from 'react'
 import BgFooter from '../../assets/mobile/showcasse/OldTraford.png'
 import { FaFacebook, FaInstagramSquare, FaTwitter, FaLinkedin } from 'react-icons/fa'
+import { Link } from 'react-scroll'
 
 const Footer = () => {
   return (
@@ -33,12 +34,12 @@ const Footer = () => {
             </div>
           </div>
           <ul className='container hidden lg:grid list-none w-[50%] gap-4 grid-cols-2'>
-            <li className='w-fit cursor-pointer'>Home</li>
-            <li className='w-fit cursor-pointer'>About</li>
-            <li className='w-fit cursor-pointer'>Roadmap</li>
-            <li className='w-fit cursor-pointer'>Showcase</li>
-            <li className='w-fit cursor-pointer'>FAQ</li>
-            <li className='w-fit cursor-pointer'>Team</li>
+            <Link to="home" spy={true} smooth={true} duration={800} className='w-fit hover:underline cursor-pointer' >Home</Link >
+            <Link to="about" spy={true} smooth={true} duration={800} className='w-fit hover:underline cursor-pointer' >About </Link >
+            {/* <Link to="roadmap" spy={true} smooth={true} duration={800} className='w-fit hover:underline cursor-pointer' >Roadmap</Link > */}
+            <Link to="showcase" spy={true} smooth={true} duration={800} className='w-fit hover:underline cursor-pointer' >Showcase</Link >
+            <Link to="team" spy={true} smooth={true} duration={800} className='w-fit hover:underline cursor-pointer' >Team</Link >
+            <Link to="faq" spy={true} smooth={true} duration={800} className='w-fit hover:underline cursor-pointer' >Faq</Link >
           </ul>
         </div>
         <div className='container w-[100%] lg:w-[75%] mt-4 flex justify-between items-center flex-col lg:flex-row'>

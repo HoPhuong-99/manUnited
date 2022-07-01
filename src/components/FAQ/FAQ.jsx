@@ -54,7 +54,7 @@ const FAQ = () => {
 
   return (
     
-    <section className='bg-slate-800 flex justify-center items-center flex-col md-mobile-view lg-desktop-view ' id='faq'>
+    <section className='bg-slate-800 lg:min-h-[800px] flex justify-center items-center flex-col md-mobile-view lg-desktop-view ' id='faq'>
       <h1 className='md-mobile-h1'>
         FAQ
       </h1>
@@ -62,7 +62,8 @@ const FAQ = () => {
       {
         content.map((contentItem , id) => {
           return (
-            <Content key={id} index={contentItem.id} title={contentItem.title} content={contentItem.content} icon={contentItem.AiOutlinePlus} handleShow={() => handleShow(contentItem.id)} showSpan={contentItem.status} />
+            <Content key={id} index={contentItem.id} title={contentItem.title} content={contentItem.content} 
+            icon={contentItem.AiOutlinePlus} handleShow={() => handleShow(contentItem.id)} showSpan={contentItem.status} />
           )
         })
       }

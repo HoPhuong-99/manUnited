@@ -44,7 +44,7 @@ function App() {
       <Narbar isMobile={isMobile} />
       <Home />
       <About />
-      <RoadMap />
+      {/* <RoadMap /> */}
       <ShowCase />
       <Team />
       <FAQ />

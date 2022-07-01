@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .text-home {
-  @apply w-[100%] text-center my-4 font-normal font-Sora
+  @apply w-[100%] text-center xl:text-left my-4 font-normal font-Sora
 }
 
 /* class RoadMap */

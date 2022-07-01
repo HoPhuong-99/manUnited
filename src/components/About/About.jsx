@@ -18,7 +18,7 @@ export const About = () => {
   return (
     <section className='w-[100%] bg-gradient-to-r from-red-600 to-red-400 min-h-screen flex justify-center flex-col items-center relative 
     overflow-hidden ' id="about">
-      <div className='w-[100%] flex justify-center items-center flex-col pt-[100px]'>
+      <div className='container w-[100%] flex flex-col xl:w-[75%] xl:flex-row justify-center items-center pt-[100px]'>
         <div className='w-[50%] h-[100%]'>
           <Swiper spaceBetween={30}
             centeredSlides={true}
@@ -48,8 +48,8 @@ export const About = () => {
             </SwiperSlide>
           </Swiper>
         </div>
-        <div className='flex  justify-center items-center flex-col'>
-          <div className="w-[80%] text-white flex flex-col justify-center h-[100%] min-h-[60vh] items-center text-center">
+        <div className='flex flex-col justify-center items-center '>
+          <div className="container w-[80%] text-white flex flex-col justify-center h-[100%] min-h-[60vh] items-center text-center xl:text-left">
             <h2 className='text-[3rem] font-bold font-Sora'>
               Welcome To The
               <br />

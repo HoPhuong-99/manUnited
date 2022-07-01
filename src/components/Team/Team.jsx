@@ -5,11 +5,11 @@ import sancho from '../../assets/mobile/showcasse/sancho.png'
 import degea from '../../assets/mobile/showcasse/degea.png'
 import varane from '../../assets/mobile/showcasse/varane.png'
 
-const Team = () => {
+const Team = (props) => {
   const [height, setHeight] = useState(null)
   const [width, setWidth] = useState(null)
   const confettiRef = useRef(null)
-
+  const {isMobile} = props
   useEffect(() => {
     setHeight(confettiRef.current.clientHeight);
     setWidth(confettiRef.current.clientWidth);
@@ -18,8 +18,8 @@ const Team = () => {
   return (
     <section className='relative w-[100vw] flex flex-col justify-center min-h-screen bg-white' id='team' ref={confettiRef}>
       <Confetti
-        className='absolute w-[100%] h-[100%] z-0'
-        numberOfPieces={80}
+        className='absolute w-[100%] xl:w-[100%] h-[100%] z-0'
+        numberOfPieces={90}
         width={width}
         height={height}
       />

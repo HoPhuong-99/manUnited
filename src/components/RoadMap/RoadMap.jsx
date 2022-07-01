@@ -11,7 +11,7 @@ const RoadMap = () => {
       <div className='w-[100%] flex justify-center'>
         <div className='relative w-[90%] h-[200vh] flex justify-end items-center flex-col'>
           <div className='flex justify-center items-center'>
-              <div className="inline-block absolute top-0 translate-x-[-50%] w-[1.5rem] h-[1.5rem] rounded-[50%] bg-black left-4 animate-bounce"/>
+              <div className="inline-block absolute top-0 translate-x-[-50%] w-[1rem] h-[1rem] rounded-[50%] bg-black left-4 animate-ping"/>
               <div className='absolute left-4 translate-x-[-50%] w-[100%] h-[100%] overflow-hidden'>
 
               </div>

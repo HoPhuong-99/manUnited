@@ -18,7 +18,7 @@ export const Narbar = (props) => {
         </h1>
         {
           isMobile ? (
-            <div className='absolute left-[50%] flex justify-center'>
+            <div className='absolute left-[48%] flex justify-center'>
               <ul className=''>
                 {
                   isMenu ? (<AiOutlineArrowDown size={"30px"} onClick={handleMenu} />
@@ -32,14 +32,14 @@ export const Narbar = (props) => {
               {
                 isMenu &&
                 (
-                  <ul className='flex justify-center flex-col fixed top-[5rem] w-[100vw] h-[calc(100vh-5rem)] z-[50] bg-white backdrop-blur-[2px] translate-y-[0px]
-              delay-[0s] transition-all duration-[0.3s] ease-[ease] items-center list-none font-Sora opacity-80 '>
-                    <li className='py-4'>Home</li>
-                    <li className='py-4'>About</li>
-                    <li className='py-4'>Roadmap</li>
-                    <li className='py-4'>Showcase</li>
-                    <li className='py-4'>Team</li>
-                    <li className='py-4'>Fag</li>
+                  <ul className='container flex justify-center flex-col fixed top-[5rem] w-[100vw] h-[calc(100vh-5rem)] md:h-[calc(100vh-10rem)] z-[50] bg-white backdrop-blur-[2px] translate-y-[0px]
+              delay-[0s] transition-all duration-[0.3s] ease-[ease] items-center list-none font-Sora opacity-80 left-0 '>
+                    <Link to="home" spy={true} smooth={true} duration={800} className='mx-4 cursor-pointer hover:underline' onClick={handleMenu} ><li className='py-4'>Home</li></Link >
+                    <Link to="about" spy={true} smooth={true} duration={800} className='mx-4 cursor-pointer hover:underline' onClick={handleMenu} ><li className='py-4'>About</li></Link >
+                    {/* <Link to="roadmap" spy={true} smooth={true} duration={800} className='mx-4 cursor-pointer hover:underline' ><li className='py-4'>Roadmap</li></Link > */}
+                    <Link to="showcase" spy={true} smooth={true} duration={800} className='mx-4 cursor-pointer hover:underline' onClick={handleMenu} ><li className='py-4'>Showcase</li></Link >
+                    <Link to="team" spy={true} smooth={true} duration={800} className='mx-4 cursor-pointer hover:underline' onClick={handleMenu} ><li className='py-4'>Team</li></Link >
+                    <Link to="faq" spy={true} smooth={true} duration={800} className='mx-4 cursor-pointer hover:underline' onClick={handleMenu} ><li className='py-4'>FAQ</li></Link >
                     <li className='my-4 cursor-pointer'>
                       <div className='inline-block'>
                         <button className='inline-block bg-black text-white outline-none border-none text-[0.875rem] py-[0.9rem] px-[2.3rem] 
@@ -54,22 +54,26 @@ export const Narbar = (props) => {
             </div>
           ) : (
             <div className=''>
-              <Link to="home" spy={true} smooth={true}  duration={500} className='mx-4' >Home</Link >
-              <Link to="about" spy={true} smooth={true}  duration={500} className='mx-4' >About </Link >
-              <Link to="roadmap" spy={true} smooth={true}  duration={500} className='mx-4' >Roadmap</Link >
-              <Link to="showcase" spy={true} smooth={true}  duration={500} className='mx-4' >Showcase</Link >
-              <Link to="team" spy={true} smooth={true}  duration={500} className='mx-4' >Team</Link >
-              <Link to="faq" spy={true} smooth={true}  duration={500} className='mx-4' >Faq</Link >
+              <Link to="home" spy={true} smooth={true} duration={800} className='mx-4 cursor-pointer hover:underline' >Home</Link >
+              <Link to="about" spy={true} smooth={true} duration={800} className='mx-4 cursor-pointer hover:underline' >About </Link >
+              {/* <Link to="roadmap" spy={true} smooth={true} duration={800} className='mx-4 cursor-pointer hover:underline' >Roadmap</Link > */}
+              <Link to="showcase" spy={true} smooth={true} duration={800} className='mx-4 cursor-pointer hover:underline' >Showcase</Link >
+              <Link to="team" spy={true} smooth={true} duration={800} className='mx-4 cursor-pointer hover:underline' >Team</Link >
+              <Link to="faq" spy={true} smooth={true} duration={800} className='mx-4 cursor-pointer hover:underline' >Faq</Link >
             </div>
           )
         }
-        <div>
-          <button className='inline-block bg-black text-white outline-none border-none text-[0.875rem] py-[0.9rem] px-[2.3rem] 
-                    rounded-[50px] relative cursor-pointer transition-all duration-[0.2s] ease-[ease] delay-[0s]'>
-            Connect Wallet
-          </button>
-        </div>
-
+        {
+          isMobile ? ("")
+            : (
+              <div>
+                <button className='inline-block bg-black text-white outline-none border-none text-[0.875rem] py-[0.9rem] px-[2.3rem] 
+                      rounded-[50px] relative cursor-pointer transition-all duration-[0.2s] ease-[ease] delay-[0s]'>
+                  Connect Wallet
+                </button>
+              </div>
+            )
+        }
       </nav>
     </section>
 
