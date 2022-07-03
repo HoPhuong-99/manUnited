@@ -18,17 +18,17 @@
 
 .div-content-roadmap
 {
-  @apply px-[1rem] py-[1rem] border-solid border-black w-[70%] h-fit border-[3px] rounded-tr-[50px] rounded-bl-[50px]
+  @apply container px-[1rem] py-[1rem] border-solid border-black w-[85%] sm:w-[75%] h-fit border-[3px] rounded-tr-[50px] rounded-bl-[50px]
 }
 
 .title-content-roadmap
 {
-  @apply block text-[2rem] capitalize font-Sora
+  @apply container block text-[1.25rem] sm:text-[2rem] capitalize font-Sora font-semibold leading-[23px]
 }
 
 .body-conten-roadmap 
 {
-  @apply block text-[0.875rem] capitalize font-normal my-[0.5rem] font-Sora
+  @apply container block text-[0.75em] sm:text-[0.875em] capitalize font-normal my-[0.5rem] font-Sora leading-3
 }
 
 /* ShowCase */
@@ -55,8 +55,8 @@
 
 /* Team */
 .div-inforTeam
-{
-  @apply w-[calc(20rem-4vw)] py-4 mx-4 my-8 relative z-[5] border-solid border-[2px] border-black rounded-[20px] flex flex-col justify-center 
+{ 
+  @apply w-[calc(20rem-4vw)] py-4 mx-4 my-8 relative z-[5] border-solid border-[2px] border-black rounded-[20px] text-center flex flex-col justify-center 
 }
 .div-imgTeam {
   @apply w-[80%] bg-white px-4 py-4 cursor-pointer border-solid border-[1px] border-black rounded-[20px]

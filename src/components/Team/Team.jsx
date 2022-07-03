@@ -23,8 +23,8 @@ const Team = (props) => {
         width={width}
         height={height}
       />
-      <div className='flex justify-center z-10'>
-        <h1 className='text-[3rem] font-AkayaTelivigala font-bold capitalize my-[1rem] border-b-2 border-solid w-fit border-black'>
+      <div className='flex w-[100%] justify-center text-center z-10'>
+        <h1 className='text-[3rem] font-AkayaTelivigala font-bold capitalize my-[1rem] border-b-2 border-solid w-[80%] border-black'>
           Man Of SeaSon
         </h1>
       </div>
