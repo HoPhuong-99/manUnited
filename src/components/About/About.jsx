@@ -50,7 +50,7 @@ export const About = () => {
         </div>
         <div className='flex flex-col justify-center items-center '>
           <div className="container w-[80%] text-white flex flex-col justify-center h-[100%] min-h-[60vh] items-center text-center xl:text-left">
-            <h2 className='text-[3rem] font-bold font-Sora'>
+            <h2 className='container text-[2rem] sm:text-[3rem] font-bold font-Sora'>
               Welcome To The
               <br />
               Manchester United Club.

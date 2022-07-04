@@ -36,7 +36,7 @@ export const Narbar = (props) => {
               delay-[0s] transition-all duration-[0.3s] ease-[ease] items-center list-none font-Sora opacity-80 left-0 '>
                     <Link to="home" spy={true} smooth={true} duration={800} className='mx-4 cursor-pointer hover:underline' onClick={handleMenu} ><li className='py-4'>Home</li></Link >
                     <Link to="about" spy={true} smooth={true} duration={800} className='mx-4 cursor-pointer hover:underline' onClick={handleMenu} ><li className='py-4'>About</li></Link >
-                    {/* <Link to="roadmap" spy={true} smooth={true} duration={800} className='mx-4 cursor-pointer hover:underline' ><li className='py-4'>Roadmap</li></Link > */}
+                    <Link to="roadmap" spy={true} smooth={true} duration={800} className='mx-4 cursor-pointer hover:underline' ><li className='py-4'>Roadmap</li></Link >
                     <Link to="showcase" spy={true} smooth={true} duration={800} className='mx-4 cursor-pointer hover:underline' onClick={handleMenu} ><li className='py-4'>Showcase</li></Link >
                     <Link to="team" spy={true} smooth={true} duration={800} className='mx-4 cursor-pointer hover:underline' onClick={handleMenu} ><li className='py-4'>Team</li></Link >
                     <Link to="faq" spy={true} smooth={true} duration={800} className='mx-4 cursor-pointer hover:underline' onClick={handleMenu} ><li className='py-4'>FAQ</li></Link >

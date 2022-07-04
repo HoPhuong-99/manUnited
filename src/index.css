@@ -18,7 +18,7 @@
 
 .div-content-roadmap
 {
-  @apply container px-[1rem] py-[1rem] border-solid border-black w-[85%] sm:w-[75%] h-fit border-[3px] rounded-tr-[50px] rounded-bl-[50px]
+  @apply container px-[1rem] py-[1rem] border-solid border-black w-[85%] sm:w-[75%] lg:w-[40%] h-fit border-[3px] rounded-tr-[50px] rounded-bl-[50px]
 }
 
 .title-content-roadmap
@@ -28,7 +28,7 @@
 
 .body-conten-roadmap 
 {
-  @apply container block text-[0.75em] sm:text-[0.875em] capitalize font-normal my-[0.5rem] font-Sora leading-3
+  @apply container block text-[0.75em] sm:text-[0.875em] capitalize font-normal my-[0.5rem] font-Sora leading-3 sm:leading-4 lg:leading-5
 }
 
 /* ShowCase */
@@ -41,7 +41,7 @@
   @apply flex justify-between px-4 py-[0.8rem] border-[2px] bg-black border-solid border-white rounded-b-[20px]
 }
 .span-information 
-{
+{ 
   @apply font-Sora font-semibold text-[0.875rem] leading-6 text-white
 }
 .h1-information {
@@ -97,7 +97,7 @@
 /* Footer Class */
 .background-footer
 {
-  @apply container w-[100%] max-w-[100%] h-[15rem] lg:h-[28rem]  relative border-solid border-[1px] border-black flex flex-col justify-center items-center overflow-hidden
+  @apply container w-[100%] max-w-[100%] h-[15rem] lg:h-[28rem]  relative flex flex-col justify-center items-center overflow-hidden
 }
 .section-bg-flex
 {
@@ -105,7 +105,7 @@
 }
 .h1-footer
 {
-  @apply text-white text-[2rem] z-10 capitalize font-Sora font-bold
+  @apply text-red-500 text-[2rem] z-10 capitalize font-Sora font-bold leading-8
 }
 .h1-mobile{
 @apply py-8 
@@ -115,5 +115,5 @@
   @apply inline-block bg-white text-black outline-none border-none font-Sora font-semibold rounded-[50px] cursor-pointer relative
 }
 .prop-button-mobile {
-  @apply text-[1.25rem] py-[0.875rem] px-[2rem]
+  @apply text-[14px] py-[8px] px-[2rem]
 }

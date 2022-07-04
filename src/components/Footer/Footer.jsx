@@ -8,11 +8,11 @@ const Footer = () => {
     <div>
       <section className='min-h-[100vh] w-[100vw] bg-white relative text-black flex flex-col items-center text-center' id='footer'>
         <section className='background-footer section-bg-flex'>
-          <div className="w-[100%] absolute flex justify-center items-center opacity-70">
+          <div className=" w-[100%] absolute flex justify-center items-center opacity-70">
             <img src={BgFooter} alt="background" />
           </div>
-          <h1 className='h1-footer h1-mobile  '>
-            Join The Manchester
+          <h1 className='h1-footer h1-mobile '>
+            Manchester
             <br />
             United Club
           </h1>
@@ -36,7 +36,7 @@ const Footer = () => {
           <ul className='container hidden lg:grid list-none w-[50%] gap-4 grid-cols-2'>
             <Link to="home" spy={true} smooth={true} duration={800} className='w-fit hover:underline cursor-pointer' >Home</Link >
             <Link to="about" spy={true} smooth={true} duration={800} className='w-fit hover:underline cursor-pointer' >About </Link >
-            {/* <Link to="roadmap" spy={true} smooth={true} duration={800} className='w-fit hover:underline cursor-pointer' >Roadmap</Link > */}
+            <Link to="roadmap" spy={true} smooth={true} duration={800} className='w-fit hover:underline cursor-pointer' >Roadmap</Link >
             <Link to="showcase" spy={true} smooth={true} duration={800} className='w-fit hover:underline cursor-pointer' >Showcase</Link >
             <Link to="team" spy={true} smooth={true} duration={800} className='w-fit hover:underline cursor-pointer' >Team</Link >
             <Link to="faq" spy={true} smooth={true} duration={800} className='w-fit hover:underline cursor-pointer' >Faq</Link >
